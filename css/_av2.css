@@ -1,0 +1,49 @@
+/* cinza escuro */
+/*#2D903D - verde */
+/*#303030 - cinza escuro */
+html {
+  height: 100%; }
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 100%; }
+
+.banner-ne {
+  width: 100%;
+  height: 75vh;
+  position: relative;
+  background-image: url("../img/jeremy-bishop-B3hNQbPSg0I-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  @media (min-width: 0) and (max-width: 600px) {
+    .banner-ne {
+      height: 50%; } }
+  .banner-ne .banner-tittle {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    max-width: 60%;
+    width: 100%; }
+    @media (min-width: 0) and (max-width: 600px) {
+      .banner-ne .banner-tittle {
+        top: 10%; } }
+    .banner-ne .banner-tittle h1 {
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+      font-size: 40px;
+      color: #fff;
+      margin-bottom: 30px; }
+      @media (min-width: 0) and (max-width: 600px) {
+        .banner-ne .banner-tittle h1 {
+          font-size: 45px; } }
+    .banner-ne .banner-tittle p {
+      font-size: 24px;
+      color: #fff;
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+      margin-bottom: 60px; }
+      @media (min-width: 0) and (max-width: 600px) {
+        .banner-ne .banner-tittle p {
+          font-size: 18px;
+          margin-bottom: 20px; } }

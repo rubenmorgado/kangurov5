@@ -1,0 +1,12 @@
+/* cinza escuro */
+/*#2D903D - verde */
+/*#303030 - cinza escuro */
+.contact-Info {
+  max-width: 100%;
+  position: relative;
+  margin-top: 50px; }
+  .contact-Info .container-1 {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 8rem; }

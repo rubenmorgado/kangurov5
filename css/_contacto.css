@@ -1,0 +1,33 @@
+/* cinza escuro */
+/*#2D903D - verde */
+/*#303030 - cinza escuro */
+html {
+  height: 100%; }
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 100%; }
+
+.banner-contact {
+  width: 100%;
+  height: 85vh;
+  position: relative; }
+  @media (min-width: 0) and (max-width: 600px) {
+    .banner-contact {
+      height: 50%; } }
+  .banner-contact .intro {
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    max-width: 60%;
+    width: 100%;
+    padding: 3%; }
+    .banner-contact .intro p {
+      font-size: 40px;
+      color: #303030;
+      font-family: "Inter", sans-serif;
+      font-weight: 300;
+      margin-bottom: 60px; }
+      @media (min-width: 0) and (max-width: 600px) {
+        .banner-contact .intro p {
+          font-size: 18px; } }

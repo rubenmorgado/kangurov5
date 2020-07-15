@@ -1,0 +1,44 @@
+html {
+  height: 100%; }
+
+body {
+  font-family: "Montserrat", sans serif;
+  height: 100%; }
+
+.hero {
+  width: 100%;
+  position: relative;
+  background-image: url("img/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  @media (min-width: 0) and (max-width: 600px) {
+    .hero {
+      height: 50%; } }
+  .hero .slogan {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    max-width: 60%;
+    width: 100%;
+    margin: 0 auto; }
+    .hero .slogan h1 {
+      font-family: "Montserrat", sans serif;
+      font-size: 72px;
+      color: black;
+      text-transform: uppercase;
+      margin-bottom: 30px; }
+      @media (min-width: 0) and (max-width: 600px) {
+        .hero .slogan h1 {
+          font-size: 45px; } }
+    .hero .slogan p {
+      font-size: 24px;
+      color: gray;
+      font-family: "Montserrat", sans serif;
+      font-weight: 300;
+      margin-bottom: 60px; }
+      @media (min-width: 0) and (max-width: 600px) {
+        .hero .slogan p {
+          font-size: 18px; } }

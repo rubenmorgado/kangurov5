@@ -1,0 +1,33 @@
+/* cinza escuro */
+/*#2D903D - verde */
+/*#303030 - cinza escuro */
+.contact-Info {
+  max-width: 100%;
+  position: relative;
+  padding: 0 10% 2% 10%; }
+  .contact-Info .container-1 {
+    display: -ms-grid;
+    display: grid;
+    width: 85%;
+    margin: 60px auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 8rem; }
+  .contact-Info .main-contact h2 {
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+    color: #303030; }
+  .contact-Info .main-contact a {
+    text-decoration: none;
+    color: #303030;
+    font-size: 1rem; }
+  .contact-Info .main-contact p {
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+    color: #303030; }
+  .contact-Info .img-school {
+    width: 85%;
+    margin: 0 auto; }
+    .contact-Info .img-school img {
+      width: 100%; }
